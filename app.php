@@ -9,4 +9,3 @@ else {
 	$messages = Functions\readMessagesFromFile();
 	Functions\sendMessages($messages);
 }
-?>
