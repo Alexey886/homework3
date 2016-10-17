@@ -32,4 +32,3 @@ function sendMessages($messages)
 	header('Content-Type: application/json');
 	echo json_encode($messages);
 }
-readMessagesFromFile();
